@@ -1,6 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 1000px;
+    max-height: 1000px;
+
 }
 
 body {
@@ -33,9 +36,9 @@ nav a {
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #052d59;
+    color: #1b1c1e;
     font-weight: 500;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 2);
+    text-shadow: 1px 1px 2px #835e4c;
     opacity: 0.5 black;
     font-size: 24px;
 
@@ -56,7 +59,7 @@ nav li:first-child {
     height: 100vh;
     width: 250px;
     z-index: 999;
-    background-color: rgba(8, 8, 8, 0.564);
+    background-color: rgba(8, 8, 8, 0.087);
     backdrop-filter: blur(200px);
     box-shadow: -10px 0 10px black;
     display: none;
@@ -96,14 +99,60 @@ nav li:first-child {
 }
 
 .contact {
-    color: #052d59;
+    color: #1b1c1e;
+    text-shadow: 1px 1px 2px #835e4c;
     padding: 30px 30px;
+    display: inline;
     list-style: none;
-    color: #052d59;
     font-size: 20px;
 }
-button{
-    padding: 10px;
-    padding-top: 0px;
 
+p a {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px 10px;
+    background-color: #835e4c;
+    color: #1b1c1e;
+    text-shadow: 1px 1px 5px white;
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 70px 20px 0 20px;
+}
+
+
+div h4 {
+    padding: 20px;
+    font-size: 18px;
+}
+
+div p {
+    padding: 20px;
+    font-size: 15px;
+}
+
+div button {
+    margin: 20px;
+    display: inline;
+}
+
+.svg {
+    color: #1b1c1e;
+    text-shadow: 1px 1px 2px #835e4c;
 }
